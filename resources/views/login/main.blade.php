@@ -34,10 +34,10 @@
                             <form action="" method="post">
                                 @csrf
                                     <label class="form-label mb-2" for="email">Email</label>  
-                                    <input id="email" name="email" type="email" class="intro-x login__input form-control py-3 px-4 block" required>
+                                    <input id="email" name="email" type="email" class="intro-x login__input form-control py-3 px-4 block" >
                             
                                     <label class="form-label mt-2" for="password">Password</label> 
-                                    <input id="password" name="password" type="password" class="intro-x login__input form-control py-3 px-4 block" autocomplete="new-password" required>    
+                                    <input id="password" name="password" type="password" class="intro-x login__input form-control py-3 px-4 block" autocomplete="new-password" >    
                                     <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
                                         <button type="submit" class="btn btn-primary py-3 px-4 w-full xl:w-32 xl:mr-3 align-top">Login</button>
                                     </div>
