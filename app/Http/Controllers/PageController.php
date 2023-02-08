@@ -16,7 +16,9 @@ class PageController extends Controller
     public function dashboardOverview1()
     {
         $totalUser = DB::table('users')->count();
-        return view('pages/dashboard-view', compact('totalUser'));
+        $totalFiles = DB::table('filemanagers')->count();
+        return view('pages/dashboard-view', compact(['totalUser', 'totalFiles']));
+
     }
 
     /**

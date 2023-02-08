@@ -23,7 +23,7 @@
                                     <div class="flex">
                                         <i data-lucide="file" class="report-box__icon text-primary"></i>
                                     </div>
-                                    <div class="text-3xl font-medium leading-8 mt-6">129</div>
+                                    <div class="text-3xl font-medium leading-8 mt-6">{{$totalFiles}}</div>
                                     <div class="text-base text-slate-500 mt-1">Total Files</div>
                                 </div>
                             </div>
